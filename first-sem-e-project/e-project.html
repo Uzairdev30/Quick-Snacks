@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="snacks" content="width=device-width, initial-scale=1.0">
+    <title>snaks restuaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/e-project.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>quick snacks.</a>
+        <nav class="navbar">
+            <a  href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#message">Contact us</a>
+            <a href="#category">category</a>
+            <a href="#review">review</a>
+            <a href="#feedback">feedback</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart" id="demo" onclick="abc()"></a>
+        </div>
+    </header>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <section class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Trail mix</h3>
+                        <p>Trail mix or scroggin is a type of snack mix, typically a combination of granola, dried
+                            fruit,
+                            nuts, and sometimes candy, developed as a food to be taken along on hikes. </p>
+                        <a href="trailmix.html" class="btn">Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/Trail-Mix.webp">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Love is a bucket of fried chicken. One can never get enough of fried chicken. A portion of
+                            fried chicken can make you smile. My favourite food is chicken , so today I will celebrate
+                            the whole day by just having fried chicken.</p>
+                        <a href="fried chicken.html" class="btn">Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/img3.jpeg">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Blueberry smoothie</h3>
+                        <p>You get a generous dose of fiber, Vitamin C, Vitamin K, and manganese in every one cup
+                            serving
+                            of blueberries.</p>
+                        <a href="blueberry smoothie.html" class="btn">Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/blueberry-sm.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/fried chicken.webp">
+                <h3> chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="fried chicken.html" class="btn">recipe</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/flauta.webp">
+                <h3>cheese flauta</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="Cheese-flauta.html" class="btn">recipe</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a> 
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/category 6.jpg">
+                <h3>popcorn</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="popcorn.html" class="btn">recipe</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/granula.jpg">
+                <h3>basic granula</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="basic granula.html" class="btn">recipe</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/yogurt2.jpeg">
+                <h3>breakfast-yogurt</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="breakfast yogurt.html" class="btn">recipe</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                <a href="#" class="fas fa-eye" onclick="myFunction2()"></a>
+                <img src="assets/images/crackers.jfif">
+                <h3>crispy-cracker</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <a href="crackers.html" class="btn">recipe</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="assets/images/French-fries.webp">
+            </div>
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet saepe odit culpa voluptates
+                    esse tempora incidunt facilis nulla, impedit eos et reiciendis explicabo excepturi nam modi dicta
+                    vitae voluptatibus!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi iure consequuntur, inventore
+                    voluptas, dolores, nemo sunt alias a ratione quia reiciendis porro quaerat quo minus molestiae earum
+                    soluta pariatur ex.</p>
+                <div class="icons-container">
+
+                    <div class="icons">
+                        <a href="mailto:saimzia0304@gmail.com"><i class="fas fa-headset"> </i>
+                            <span>24/7 service</span></a>
+                    </div>
+                </div>
+                <a href="#review" class="btn">Reviews</a>
+            </div>
+        </div> <br> <br> <br> <br> <br>
+
+
+
+        <div class="contact-container">
+            <div class="form-container">
+              <h3 class="message" id="message">message us</h3>
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="your name" required>
+                    <input type="email" name="" id="" placeholder="enter your email..." required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="write message here..." required></textarea>
+                    <input type="submit" value="send" onclick="myFunction3()" class="send-button">
+                </form>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.7978347440508!2d67.04007708565807!3d24.93895608508767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3daae54d55%3A0x5dae2a3a4b71f12a!2sAptech%20Learning%20North%20Nazimabad%20II%20Center!5e0!3m2!1sen!2s!4v1684822758643!5m2!1sen!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="category" id="category">
+        <h3 class="sub-heading">our category</h3>
+        <h1 class="heading">SNACKS FOR KIDS</h1>
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/Trail-Mix.webp" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Trail mix</h3>
+                    <p>Trail mix or scroggin is a type of snack mix, typically a combination of granola, dried fruit,
+                        nuts, and sometimes candy, developed as a food to be taken along on hikes. </p>
+                    <a href="trailmix.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/category 6.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>popcorn</h3>
+                    <p>Popcorn is one of the only situations in which you eat the result of an explosion. ..</p>
+                    <br><br> <br> <br>
+                    <a href="popcorn.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/granula.jpgitokHwTbjbCo" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>basic granula</h3>
+                    <p>
+                        It's a toasted mixture of rolled oats,
+                        nuts, and a sweetener like sugar or honey, though it can also include other grains, puffed rice,
+                        dried fruit, seeds, spices, and nut butters.</p>
+                    <a href="basic granula.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="category" id="category">
+
+        <h1 class="heading"> Healthy snacks</h1>
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/category 5.webp" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Samosa</h3>
+                    <p> sambosa is a fried South Asian pastry with a savoury filling, including ingredients such as
+                        spiced potatoes, onions, peas, meat or fish. </p>
+                    <a href="samosa.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/chickpeas.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Spicy chickpeas</h3>
+                    <p>Chickpeas is an excellent source of carbohydrate, protein, fiber, B vitamins, and some minerals,
+                        they are a nutritious staple of many diets.</p>
+                    <a href="chickpeas.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/category 7.webp" alt="">
+                    <a href="" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Desi nimco</h3>
+                    <p>Nimco is also known as chanachur. They are an amazing combination of fried and baked lentils,
+                        colourful chickpeas, peanuts, flakes of rice etc.</p>
+                    <a href="desi nimco.html" class="btn">recipe</a>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="category" id="category">
+
+        <h1 class="heading">easy on stomach snacks</h1>
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/yogurt.jfif" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>breakfast-yogurt</h3>
+                    <p>anything is not healthy than yogurt .you must try it </p>
+                    <a href="breakfast yogurt.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/apple-sauce.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Apple-sauce</h3>
+                    <p> the sweet sauce with apple pulp foam including lemon extract</p>
+                    <a href="apple sauce.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/crackers.jfif" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Crunchy-crackers</h3>
+                    <p>an intense experience of crunch with the blast of nuts. you'll be obsessed with it.</p>
+                    <a href="crackers.html" class="btn">recipe</a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="category" id="category">
+
+        <h1 class="heading">smoothies</h1>
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/blueberry-smoothie-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Blueberry-Smoothie</h3>
+                    <p> You get a generous dose of fiber, Vitamin C, Vitamin K, and manganese in every one cup
+                        serving
+                        of blueberries.</p>
+                    <a href="blueberry smoothie.html" class="btn">recipe</a>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/mango-smoothie-recipe-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Mango-smoothie</h3>
+                    <p> As you know mango is the king of fruit . its smoothie will send you another dimension </p> <br><br>
+                    <a href="mango-smoothie.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/Peach & coconut smoothie_4562.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>peach-smoothie</h3>
+                    <p>if you never try peach smoothie then it means you never try anything</p> <br><br>
+                    <a href="peach smoothie.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="category" id="category">
+
+        <h1 class="heading">fried items</h1>
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/Crispy-Falafel-Recipe-1200.jpg" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>crispy-falafel</h3>
+                    <p>Falafel are deep-fried balls or patties made from chickpeas or fava beans, sometimes both, plus fresh herbs and spices. </p>
+                    <a href="crispy falafel.html" class="btn">recipe</a>
+                  
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/fried chicken.webp" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>fried chicken</h3>
+                    <p>if we talk about fried items never mention fried chicken so, thats not fear</p> <br><br> 
+                    <a href="fried chicken.html" class="btn">recipe</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/flauta.webp" alt="">
+                    <a href="#" class="fas fa-heart" onclick="myFunction()"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cheese-flauta</h3>
+                    <p>Flautas are a type of Mexican food made by rolling a filling, typically shredded chicken or beef, inside a small flour or corn tortilla</p>
+                    <a href="Cheese-flauta.html" class="btn">recipe</a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h3 class="sub-heading">custommer's review</h3>
+        <h1 class="heading">what they say</h1>
+        <div class="review-slider">
+            <div class="warpper">
+                <div class="slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="assets/images/mussab img.jpeg">
+                        <div class="user-info">
+                            <h3>abdul mussab</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit natus iusto aliquid eius
+                        aliquam quibusdam corrupti doloribus id rerum saepe placeat voluptates facere dignissimos optio,
+                        eaque ut? Tempore, molestiae nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores nihil et excepturi cupiditate ex possimus facilis distinctio dicta quasi molestias.
+                        Quibusdam asperiores iure, nam est exercitationem facere error ipsum unde.</p>
+                </div>
+                <div class="slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="assets/images/saim.jpeg">
+                        <div class="user-info">
+                            <h3>muhammad saim</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit natus iusto aliquid eius
+                        aliquam quibusdam corrupti doloribus id rerum saepe placeat voluptates facere dignissimos optio,
+                        eaque ut? Tempore, molestiae nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores nihil et excepturi cupiditate ex possimus facilis distinctio dicta quasi molestias.
+                        Quibusdam asperiores iure, nam est exercitationem facere error ipsum unde.</p>
+                </div>
+                <div class="slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="assets/images/uzair.jpeg">
+                        <div class="user-info">
+                            <h3>muhammad uzair</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit natus iusto aliquid eius
+                        aliquam quibusdam corrupti doloribus id rerum saepe placeat voluptates facere dignissimos optio,
+                        eaque ut? Tempore, molestiae nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores nihil et excepturi cupiditate ex possimus facilis distinctio dicta quasi molestias.
+                        Quibusdam asperiores iure, nam est exercitationem facere error ipsum unde.</p>
+                </div>
+                <div class="slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="assets/images/sufiyan.jpeg">
+                        <div class="user-info">
+                            <h3>muhammad sufiyan</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit natus iusto aliquid eius
+                        aliquam quibusdam corrupti doloribus id rerum saepe placeat voluptates facere dignissimos optio,
+                        eaque ut? Tempore, molestiae nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores nihil et excepturi cupiditate ex possimus facilis distinctio dicta quasi molestias.
+                        Quibusdam asperiores iure, nam est exercitationem facere error ipsum unde.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="feedback" id="feedback">
+        <h3 class="sub-heading">feedback</h3>
+        <div class="container">
+            <div class="box-rating">
+                <button class="rate">rate us</button>
+            </div>
+            <div class="rate-section">
+                <h2>review your opinion</h2>
+                <ul class="emojis">
+                    <li class="item"><i class='bx bx-sad'></i></li>
+                    <li class="item"><i class='bx bx-angry'></i></li>
+                    <li class="item"><i class='bx bx-smile'></i></li>
+                    <li class="item"><i class='bx bx-wink-smile'></i></li>
+                    <li class="item"><i class='bx bx-laugh'></i></li>
+                </ul>
+                <button class="submit">submit</button>
+            </div>
+            <div class="success-popup">
+                <div class="check-icon"><i class='bx bxs-check-circle'></i></div>
+                <h3>thank you</h3>
+                <p>your response has been succeesfully sent thanks!</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/eproject.js"></script>
+</body>
+
+</html>
